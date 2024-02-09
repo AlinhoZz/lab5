@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Atv1Principal.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #2aacb8;}
+.ln { color: #4b5059; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Atv1Principal.java</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">public class </span><span class="s1">Atv1Principal </span><span class="s2">{</span>
+<a name="l2"><span class="ln">2    </span></a>    <span class="s0">public static void </span><span class="s1">main</span><span class="s2">(</span><span class="s1">String</span><span class="s2">[] </span><span class="s1">args</span><span class="s2">) {</span>
+<a name="l3"><span class="ln">3    </span></a>
+<a name="l4"><span class="ln">4    </span></a>        <a href="Atv1Carro.java.html">Atv1Carro</a> <span class="s1">meuCarro </span><span class="s2">= </span><span class="s0">new <a href="Atv1Carro.java.html">Atv1Carro</a></span><span class="s2">(</span><span class="s3">&quot;Chevrolet&quot;</span><span class="s2">, </span><span class="s3">&quot;S10 Midnight&quot;</span><span class="s2">, </span><span class="s4">180</span><span class="s2">, </span><span class="s4">2.8</span><span class="s2">, </span><span class="s3">&quot;Traçãp 4X4 e Câmbio AT6&quot;</span><span class="s2">,</span><span class="s3">&quot;Onstar + Wi-fi Nativo Chevrolet&quot;</span><span class="s2">,</span><span class="s4">2024</span><span class="s2">, </span><span class="s4">281.190</span><span class="s2">);</span>
+<a name="l5"><span class="ln">5    </span></a>        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;</span><span class="s0">\n</span><span class="s3">Marca: &quot; </span><span class="s2">+ </span><span class="s1">meuCarro</span><span class="s2">.</span><span class="s1">getMarca</span><span class="s2">());</span>
+<a name="l6"><span class="ln">6    </span></a>        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Modelo: &quot; </span><span class="s2">+ </span><span class="s1">meuCarro</span><span class="s2">.</span><span class="s1">getModelo</span><span class="s2">());</span>
+<a name="l7"><span class="ln">7    </span></a>        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Velocidade Máxima de: &quot; </span><span class="s2">+ </span><span class="s1">meuCarro</span><span class="s2">.</span><span class="s1">getVelocidademaxima</span><span class="s2">() + </span><span class="s3">&quot; km/h&quot;</span><span class="s2">);</span>
+<a name="l8"><span class="ln">8    </span></a>        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Performace: Motor &quot; </span><span class="s2">+ </span><span class="s1">meuCarro</span><span class="s2">.</span><span class="s1">getPerformance</span><span class="s2">() + </span><span class="s3">&quot; Turbo Diesel&quot;</span><span class="s2">);</span>
+<a name="l9"><span class="ln">9    </span></a>        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Potência: &quot; </span><span class="s2">+ </span><span class="s1">meuCarro</span><span class="s2">.</span><span class="s1">getPotencia</span><span class="s2">());</span>
+<a name="l10"><span class="ln">10   </span></a>        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Tecnologia: &quot; </span><span class="s2">+ </span><span class="s1">meuCarro</span><span class="s2">.</span><span class="s1">getTecnologia</span><span class="s2">());</span>
+<a name="l11"><span class="ln">11   </span></a>        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;Ano: &quot; </span><span class="s2">+ </span><span class="s1">meuCarro</span><span class="s2">.</span><span class="s1">getAno</span><span class="s2">());</span>
+<a name="l12"><span class="ln">12   </span></a>        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;------------------------------------------------&quot;</span><span class="s2">);</span>
+<a name="l13"><span class="ln">13   </span></a>        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;A partir de R$ &quot; </span><span class="s2">+ </span><span class="s1">meuCarro</span><span class="s2">.</span><span class="s1">getValor</span><span class="s2">() + </span><span class="s3">&quot;,00&quot;</span><span class="s2">);</span>
+<a name="l14"><span class="ln">14   </span></a>        <span class="s1">System</span><span class="s2">.</span><span class="s1">out</span><span class="s2">.</span><span class="s1">println</span><span class="s2">(</span><span class="s3">&quot;------------------------------------------------&quot;</span><span class="s2">);</span>
+<a name="l15"><span class="ln">15   </span></a>    <span class="s2">}</span>
+<a name="l16"><span class="ln">16   </span></a><span class="s2">}</span>
+<a name="l17"><span class="ln">17   </span></a></pre>
+</body>
+</html>
